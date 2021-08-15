@@ -21,15 +21,3 @@ def get_shade_level(color):
         return 4
 
 
-level = get_shade_level('浅灰色')
-print (level)
-
-                 
-    
-#define a function to store 基料 (string) as a list
-def get_base(base):
-    result = base.split('/')
-    return result
-
-base = 'PP/PE'
-print(get_base(base))
